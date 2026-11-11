@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="mb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F37021"/>
+      <stop offset="52%" stop-color="#0057A8"/>
+      <stop offset="100%" stop-color="#D71920"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <g transform="translate(132, 66)">
+    <!-- Stylized Manitoba provincial outline -->
+    <path d="M18 0 L176 0 L176 112 L248 168 L210 218 L210 380 L18 380 Z"
+          fill="url(#mb)" stroke="#F8FAFC" stroke-width="14" stroke-linejoin="round"/>
+    <!-- Electoral district grid lines -->
+    <path d="M18 145 L210 145 M18 265 L210 265 M112 0 L112 380"
+          stroke="#0F172A" stroke-width="10" stroke-opacity="0.55"/>
+    <!-- Legislative marker pin -->
+    <circle cx="112" cy="295" r="26" fill="#F8FAFC"/>
+    <circle cx="112" cy="295" r="12" fill="#0F172A"/>
+  </g>
+</svg>
+

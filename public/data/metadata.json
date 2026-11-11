@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "importedAt": "2026-11-11T18:39:06.178Z",
+  "sources": [
+    {
+      "name": "Legislative Assembly of Manitoba — Current MLAs",
+      "url": "https://www.gov.mb.ca/legislature/members/mla_list_constituency.html"
+    },
+    {
+      "name": "Legislative Assembly of Manitoba — Living Former MLAs Archive",
+      "url": "https://www.gov.mb.ca/legislature/members/mla_bio_living.html"
+    },
+    {
+      "name": "Legislative Assembly of Manitoba — Deceased Historical MLAs (1870–2025)",
+      "url": "https://www.gov.mb.ca/legislature/members/mla_bio_deceased.html"
+    },
+    {
+      "name": "Elections Manitoba — 2023 General Election (43rd)",
+      "url": "https://www.electionsmanitoba.ca/downloads/43GE%20Summary%20of%20Votes%20Received.xlsx"
+    },
+    {
+      "name": "Elections Manitoba — 2019 General Election (42nd)",
+      "url": "https://www.electionsmanitoba.ca/downloads/PDF_EDResults_GE2019.pdf"
+    },
+    {
+      "name": "Elections Manitoba — 2016 General Election (41st)",
+      "url": "https://www.electionsmanitoba.ca/downloads/PDF_EDResults_GE2016.pdf"
+    },
+    {
+      "name": "Elections Manitoba — 2011 General Election (40th)",
+      "url": "https://www.electionsmanitoba.ca/downloads/PDF_EDResults_GE2011.pdf"
+    },
+    {
+      "name": "Elections Manitoba — 2007 General Election (39th)",
+      "url": "https://www.electionsmanitoba.ca/downloads/PDF_EDResults_GE2007.pdf"
+    },
+    {
+      "name": "Elections Manitoba — 1999 General Election (37th)",
+      "url": "https://www.electionsmanitoba.ca/downloads/PDF_EDResults_GE1999.pdf"
+    },
+    {
+      "name": "Elections Manitoba — Historical Summaries (1995 & 2003)",
+      "url": "https://www.electionsmanitoba.ca/downloads/HistoricalSummary.pdf"
+    },
+    {
+      "name": "Elections Manitoba — By-Elections (2005–2026)",
+      "url": "https://www.electionsmanitoba.ca/en/Results/ByElectionsResults"
+    },
+    {
+      "name": "Manitoba Electoral Divisions Boundaries (2018 & 2008)",
+      "url": "https://represent.opennorth.ca/boundaries/manitoba-electoral-districts-2018/simple_shape?limit=100"
+    },
+    {
+      "name": "Manitoba Municipal Relations — Municipal Officials Directory (Nov 2026)",
+      "url": "https://www.gov.mb.ca/mr/contactus/pubs/mod.pdf"
+    },
+    {
+      "name": "Province of Manitoba Maps — Municipal Boundaries Layer",
+      "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/MUNICIPALITY/FeatureServer/0/query?where=1%3D1&outFields=OBJECTID,MUNI_NO,MUNI_NAME,MUNI_TYPE,MUNI_LIST_NAME,MUNI_LIST_NAME_WITH_TYPE&f=geojson&outSR=4326&maxAllowableOffset=0.005"
+    },
+    {
+      "name": "City of Winnipeg Open Data — Election Results (1964–2022) & 2026 Council Wards",
+      "url": "https://data.winnipeg.ca/resource/7753-3fjc.json"
+    }
+  ],
+  "counts": {
+    "districts": 57,
+    "snapshots": 11,
+    "byElectionsImported": 17,
+    "currentSeatTally": {
+      "PC": 19,
+      "NDP": 34,
+      "IND": 3,
+      "MLP": 1
+    },
+    "legislatureMembersTotal": 896,
+    "manitobaMunicipalities": 135,
+    "winnipegWards": 15
+  },
+  "files": [
+    {
+      "file": "boundaries-2018.geojson",
+      "bytes": 2994264,
+      "sha256": "38f749fb7c629e4e561cf799c912c5a738ec68085c4066a437f21920cd665e92"
+    },
+    {
+      "file": "boundaries-2008.geojson",
+      "bytes": 1182563,
+      "sha256": "75e3cbd9602e8b63d236684325fc34dcc836d42fa58cfeb7b4740f542fc280f5"
+    },
+    {
+      "file": "elections.json",
+      "bytes": 1909169,
+      "sha256": "9d2c813789ed0aab970b76cf30692f294a4d38b1d5273bede8191083f974479f"
+    },
+    {
+      "file": "districts.json",
+      "bytes": 825866,
+      "sha256": "369a2eee3cf893e5fa06f73303a46bc64df358de902f96efd1b00cb96ed08542"
+    },
+    {
+      "file": "legislature-members.json",
+      "bytes": 723800,
+      "sha256": "83afa717aa65df80a6c0a9985cee52a8749797124a4865a07e1460e04bcbcc01"
+    },
+    {
+      "file": "municipal.json",
+      "bytes": 1464232,
+      "sha256": "b04bcd35adf36d9e00f0b7a10c6b52d72e97a63fd37e4968bcc51958ab9d6485"
+    },
+    {
+      "file": "municipalities.geojson",
+      "bytes": 369728,
+      "sha256": "61458c1cfec659ca92638929074c3502a4c2d04024607a6feb56787e6bb09e62"
+    }
+  ]
+}
